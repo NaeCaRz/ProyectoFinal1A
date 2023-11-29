@@ -212,14 +212,7 @@ public class Principal extends javax.swing.JFrame {
         VentanaUsuarioAvanzado usuarioAvanzado = new VentanaUsuarioAvanzado(u, new Fichero(u), principal.getUsuarioGuardado());
         VentanaUsuario usuario = new VentanaUsuario(u, new Fichero(u), principal.getUsuarioGuardado());
 
-//        try {
-//            principal.fichero.escribirDatos(u);
-//            principal.fichero.exportarFichero(u);
-//            principal.fichero.LeerDatos();
-//        } catch (IOException e) {
-//            e.printStackTrace();
-//            JOptionPane.showMessageDialog(null, "Error cargando la informacion del usuario");
-//        }
+
 
 
         try {
